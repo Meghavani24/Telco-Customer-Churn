@@ -76,7 +76,8 @@ Prediction + churn probability
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/Meghavanis24/telco-churn-prediction.git
+```bash
+git clone https://github.com/meghavanis24/telco-churn-prediction.git
 cd telco-churn-prediction
 
 ### 2️⃣ Install Dependencies
