@@ -75,21 +75,21 @@ Prediction + churn probability
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/meghavanis24/telco-churn-prediction.git
 cd telco-churn-prediction
 
-### 2️⃣ Install Dependencies
+Install Dependencies
 pip install -r requirements.txt
 
-### 3️⃣ Run API
+ Run API
 uvicorn main:app --reload
 
-### 5️⃣ Open API Documentation
+ Open API Documentation
 http://127.0.0.1:8000/docs
 
-### 6️⃣ Test Prediction Endpoint
+Test Prediction Endpoint
 
 Use /predict endpoint via Swagger UI.
 Provide customer data in JSON format.
