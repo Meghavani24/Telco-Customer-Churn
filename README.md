@@ -71,6 +71,28 @@ Customer data in JSON format
 ### Output
 Prediction + churn probability
 
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+git clone https://github.com/telco-churn-prediction.git
+cd telco-churn-prediction
+
+### 2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+### 3️⃣ Run API
+uvicorn main:app --reload
+
+### 5️⃣ Open API Documentation
+http://127.0.0.1:8000/docs
+
+### 6️⃣ Test Prediction Endpoint
+
+Use /predict endpoint via Swagger UI.
+Provide customer data in JSON format.
+
 Example Response:
 ```json
 {
